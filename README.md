@@ -23,7 +23,7 @@ A full-stack SaaS platform that helps job seekers improve their resumes and navi
 
 `TypeScript` · `React` · `Supabase` · `PostgreSQL` · `Stripe`
 
-[Live Application](https://strivoai.net)
+[Live Application](https://strivoai.net) · [Source Code](https://github.com/BrianKYildirim/strivoai)
 
 ### [Rate Limiter](https://github.com/BrianKYildirim/ratelimit-cpp)
 **High-Performance C++20 Rate Limiting Library**
