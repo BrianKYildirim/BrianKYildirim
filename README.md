@@ -1,94 +1,56 @@
-
 # Brian Yildirim
 
-**Computer Science @ UC Irvine**  
-**Software Engineering · Backend Development · Systems Programming**
+Computer Science student at **UC Irvine** building backend systems and concurrent software — from a low-contention C++20 rate limiter to a full-stack SaaS with Stripe billing. I care about performance trade-offs, maintainable code, and software that holds up beyond the happy path.
 
-I'm a Computer Science student at the University of California, Irvine, interested in building efficient, reliable software.
+**Currently seeking software engineering internships.**
 
-My work spans backend systems, concurrent programming, performance optimization, and full-stack development. I enjoy understanding how things work beneath the surface and applying what I learn to real-world problems.
+[![Portfolio](https://img.shields.io/badge/Portfolio-brianyildirim.com-ECE9E4?logo=googlechrome&logoColor=ECE9E4&labelColor=0F1117)](https://brianyildirim.com)
 
-Currently seeking **software engineering internship opportunities**.
-
-[Portfolio](https://brianyildirim.com) · [LinkedIn](https://linkedin.com/in/brianyildirim)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-brianyildirim-ECE9E4?logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB3aWR0aD0nMjU2JyBoZWlnaHQ9JzI1NicgeG1sbnM9J2h0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnJyBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSd4TWlkWU1pZCcgdmlld0JveD0nMCAwIDI1NiAyNTYnPjxwYXRoIGQ9J00yMTguMTIzIDIxOC4xMjdoLTM3LjkzMXYtNTkuNDAzYzAtMTQuMTY1LS4yNTMtMzIuNC0xOS43MjgtMzIuNC0xOS43NTYgMC0yMi43NzkgMTUuNDM0LTIyLjc3OSAzMS4zNjl2NjAuNDNoLTM3LjkzVjk1Ljk2N2gzNi40MTN2MTYuNjk0aC41MWEzOS45MDcgMzkuOTA3IDAgMCAxIDM1LjkyOC0xOS43MzNjMzguNDQ1IDAgNDUuNTMzIDI1LjI4OCA0NS41MzMgNTguMTg2bC0uMDE2IDY3LjAxM1pNNTYuOTU1IDc5LjI3Yy0xMi4xNTcuMDAyLTIyLjAxNC05Ljg1Mi0yMi4wMTYtMjIuMDA5LS4wMDItMTIuMTU3IDkuODUxLTIyLjAxNCAyMi4wMDgtMjIuMDE2IDEyLjE1Ny0uMDAzIDIyLjAxNCA5Ljg1MSAyMi4wMTYgMjIuMDA4QTIyLjAxMyAyMi4wMTMgMCAwIDEgNTYuOTU1IDc5LjI3bTE4Ljk2NiAxMzguODU4SDM3Ljk1Vjk1Ljk2N2gzNy45N3YxMjIuMTZaTTIzNy4wMzMuMDE4SDE4Ljg5QzguNTgtLjA5OC4xMjUgOC4xNjEtLjAwMSAxOC40NzF2MjE5LjA1M2MuMTIyIDEwLjMxNSA4LjU3NiAxOC41ODIgMTguODkgMTguNDc0aDIxOC4xNDRjMTAuMzM2LjEyOCAxOC44MjMtOC4xMzkgMTguOTY2LTE4LjQ3NFYxOC40NTRjLS4xNDctMTAuMzMtOC42MzUtMTguNTg4LTE4Ljk2Ni0xOC40NTMnIGZpbGw9JyNmZmYnLz48L3N2Zz4K&logoColor=ECE9E4&labelColor=0F1117)](https://linkedin.com/in/brianyildirim)
 
 ---
 
-## Projects
+## Featured Projects
 
-### [StrivoAI](https://strivoai.net)
-**AI-Powered Career Intelligence Platform**
-
-A full-stack SaaS platform that helps job seekers improve their resumes and navigate the hiring process. Provides AI-powered resume analysis, ATS scoring, job-description matching, LinkedIn feedback, and personalized career recommendations.
-
-`TypeScript` · `React` · `Supabase` · `PostgreSQL` · `Stripe`
-
-[Live Application](https://strivoai.net) · [Source Code](https://github.com/BrianKYildirim/strivoai)
-
-### [Rate Limiter](https://github.com/BrianKYildirim/ratelimit-cpp)
-**High-Performance C++20 Rate Limiting Library**
-
-A concurrency-focused rate limiter built around a sharded token-bucket algorithm. Uses fixed-point arithmetic and fine-grained synchronization to minimize contention and maintain predictable performance. Includes C/C++ interfaces, automated tests, microbenchmarks, and reusable CMake packaging.
-
-`C++20` · `Concurrency` · `CMake` · `GoogleTest` · `Google Benchmark`
-
-[Source Code](https://github.com/BrianKYildirim/ratelimit-cpp)
-
-### [Image Quality Gate](https://github.com/BrianKYildirim/image-quality-gate)
-**Automated Image Quality Assessment Microservice**
-
-A containerized REST API that evaluates uploaded images for blur and exposure before they enter downstream pipelines. Uses Laplacian variance and brightness analysis with configurable thresholds. Includes input validation, health checks, Prometheus metrics, and automated testing.
-
-`Python` · `FastAPI` · `OpenCV` · `NumPy` · `Docker`
-
-[Source Code](https://github.com/BrianKYildirim/image-quality-gate)
-
-### [Minecraft Enchantment Planner](https://github.com/BrianKYildirim/minecraft-enchantment-order)
-**Algorithmic Enchantment Optimization Tool**
-
-A web application that calculates cost-efficient enchantment combinations in Minecraft. Uses recursive search and memoization to minimize experience costs and prior-work penalties while accounting for enchantment compatibility and anvil constraints.
-
-`Python` · `Flask` · `JavaScript` · `HTML/CSS` · `Algorithms`
-
-[Live Application](https://minecraft-enchantment-order.vercel.app) · [Source Code](https://github.com/BrianKYildirim/minecraft-enchantment-order)
-
-### [Multithreaded TCP Key-Value Server](https://github.com/BrianKYildirim/key-value-storage)
-**Concurrent Networked Storage System**
-
-A multithreaded TCP server implementing a persistent key-value store with a custom command protocol. Supports simultaneous client connections, thread-safe operations using reentrant locks, and file-based persistence across server restarts.
-
-`Python` · `TCP Sockets` · `Multithreading` · `Synchronization`
-
-[Source Code](https://github.com/BrianKYildirim/key-value-storage)
-
+### StrivoAI
+> **AI career platform**: A full-stack SaaS that helps job seekers sharpen resumes and navigate hiring via ATS scoring, job-description matching, LinkedIn feedback, and personalized recommendations, with payments handled through Stripe.
+> 
+> [Source Code](https://github.com/BrianKYildirim/strivoai) · [Live Demo](https://strivoai.net)
+>
+> ![TypeScript](https://img.shields.io/badge/TypeScript-0F1117?logo=typescript) ![React](https://img.shields.io/badge/React-0F1117?logo=react) ![Supabase](https://img.shields.io/badge/Supabase-0F1117?logo=supabase) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-0F1117?logo=postgresql) ![Stripe](https://img.shields.io/badge/Stripe-0F1117?logo=stripe)
 
 ---
 
-## Technical Skills
-
-| Area | Technologies |
-|------|-------------|
-| **Languages** | C++, Python, TypeScript, JavaScript, SQL |
-| **Backend & Systems** | FastAPI, Flask, TCP/IP, Concurrency, REST APIs |
-| **Frontend** | React, HTML, CSS |
-| **Databases** | PostgreSQL, Supabase |
-| **Tools & Infrastructure** | Git, Docker, CMake, GitHub Actions, Vercel |
-| **Testing & Performance** | GoogleTest, Google Benchmark, Unit Testing, Profiling |
+### Minecraft Enchantment Order
+> **Enchantment cost optimizer**: Finds the cheapest order to combine enchantments on an anvil. Uses recursive search with memoization to minimize XP cost and prior-work penalties while respecting compatibility and anvil limits.
+> 
+> [Source Code](https://github.com/BrianKYildirim/minecraft-enchantment-order) · [Live Demo](https://minecraft-enchantment-order.vercel.app)
+>
+> ![Python](https://img.shields.io/badge/Python-0F1117?logo=python) ![Flask](https://img.shields.io/badge/Flask-0F1117?logo=flask) ![JavaScript](https://img.shields.io/badge/JavaScript-0F1117?logo=javascript)
 
 ---
 
-## Current Focus
-
-I'm continuing to develop my skills in systems programming, computer networking, concurrent software, and backend architecture.
-
-I care about writing maintainable code, understanding performance trade-offs, and building software that works reliably beyond the happy path.
-
-I'm always interested in learning from other engineers, contributing to meaningful projects, and taking on new technical challenges.
+### C++ Rate Limiter
+> **High-performance C++20 rate limiter**: A sharded token-bucket rate limiter built to stay fast under heavy concurrent load. Fixed-point arithmetic and fine-grained locking keep contention low and latency predictable. Ships with C/C++ APIs, GoogleTest suites, Google Benchmark microbenchmarks, and reusable CMake packaging.
+> 
+> [Source Code](https://github.com/BrianKYildirim/ratelimit-cpp)
+>
+> ![C++](https://img.shields.io/badge/C++-0F1117?logo=c%2B%2B&logoColor=blue) ![CMake](https://img.shields.io/badge/CMake-0F1117?logo=cmake&logoColor=blue) ![GoogleTest](https://img.shields.io/badge/GoogleTest-0F1117?logo=google)
 
 ---
 
-## Connect
+### Image Quality Gate
+> **Image QA microservice**: A containerized REST API that rejects blurry or badly exposed images before they reach downstream pipelines using Laplacian variance and brightness analysis. Built for production with input validation, health checks, Prometheus metrics, and automated tests.
+> 
+> [Source Code](https://github.com/BrianKYildirim/image-quality-gate)
+>
+> ![Python](https://img.shields.io/badge/Python-0F1117?logo=python) ![FastAPI](https://img.shields.io/badge/FastAPI-0F1117?logo=fastapi) ![OpenCV](https://img.shields.io/badge/OpenCV-0F1117?logo=opencv&logoColor=blue) ![Docker](https://img.shields.io/badge/Docker-0F1117?logo=docker) ![Prometheus](https://img.shields.io/badge/Prometheus-0F1117?logo=prometheus)
 
-- **Portfolio:** [brianyildirim.com](https://brianyildirim.com)
-- **LinkedIn:** [linkedin.com/in/brianyildirim](https://linkedin.com/in/brianyildirim)
-- **GitHub:** [github.com/BrianKYildirim](https://github.com/BrianKYildirim)
+---
+
+### Concurrent Key-Value Server
+> **Multithreaded TCP key-value server** — A persistent key-value store served over a custom TCP protocol. Handles many simultaneous clients with thread-safe operations and survives restarts through file-based persistence.
+> 
+> [Source Code](https://github.com/BrianKYildirim/key-value-storage)
+>
+> ![Python](https://img.shields.io/badge/Python-0F1117?logo=python)
